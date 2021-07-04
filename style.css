@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Hind Siliguri', sans-serif;
+    scroll-behavior: smooth;
 }
 /* common css */
 a{
@@ -70,6 +71,9 @@ img{
 .text .colored{
     color: #4EB0E0;
 }
+.text{
+    padding: 15px;
+}
 .text p {
     text-align: justify;
     color: dimgray;
@@ -82,4 +86,11 @@ img{
     text-transform: uppercase;
     background-image: linear-gradient(#4EB0E0,#99DAE7);
     padding: 8px 30px;
+}
+/* second area start here */
+#second_area{
+    padding: 5% 0;
+}
+.flexiable{
+    display: flex;
 }
