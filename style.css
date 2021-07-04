@@ -94,3 +94,34 @@ img{
 .flexiable{
     display: flex;
 }
+/* services start here */
+.center{
+    text-align: center;
+}
+.services_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.service_item{
+    text-align: center;
+    width: 33%;
+    height: 280px;
+    box-shadow: 0 10px 20px -6px #000;
+    margin: 12px;
+    padding: 20px;
+}
+.service_item .fa{
+    font-size: 50px;
+    color: #4EB0E0;
+    padding:0 0 20px 0;
+}
+.service_item h3{
+    color: #363958;
+}
+.service_item p{
+    color: dimgray;
+    text-align: center;
+}
+
