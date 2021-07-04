@@ -21,7 +21,8 @@ img{
 }
 /* header section start here */
 #header_area{
-
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
 }
 .top_area{
     display: flex;
@@ -124,4 +125,36 @@ img{
     color: dimgray;
     text-align: center;
 }
-
+/* projects area start here */
+#projects_area{
+    padding:20px 0;
+}
+.projects_box{
+    display: flex;
+}
+.projects_item{
+    width: 31%;
+    margin: 20px;
+    border: 1px solid #4EB0E0;
+}
+.projects_item img{
+    height: 200px;
+}
+.projects_text{
+    padding: 15px;
+}
+.projects_text p{
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: dimgray;
+}
+.btn_projects{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    background-image: linear-gradient(#4EB0E0,#99DAE7);
+    padding: 8px 30px;
+}
